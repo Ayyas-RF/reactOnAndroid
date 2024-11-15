@@ -6,7 +6,7 @@ import './App.css';
 const INITIAL_TODO = [
     {
       id: crypto.randomUUID(),
-      title: "Type your first todo"
+      title: "Make your first plan!"
     }
   ]
 
@@ -15,9 +15,10 @@ function App() {
 
   return (
     <div>
-      <h1>Todo App</h1>
+      <h1>Res Faciendae</h1>
       <Input setTodos={setTodos} />
-      <Todos todos={todos} />
+      {}
+      <Todos todos={todos} setTodos={setTodos} />
     </div>
   )
 }

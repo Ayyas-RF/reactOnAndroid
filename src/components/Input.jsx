@@ -17,7 +17,7 @@ function Input({setTodos}) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input value={text} placeholder="Type your Todo" onChange={(e) => setText(e.target.value)} />
+      <input value={text} placeholder="What's your plan today?" onChange={(e) => setText(e.target.value)} />
     </form>
   )
 }
