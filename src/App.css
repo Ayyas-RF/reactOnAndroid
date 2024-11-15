@@ -1,0 +1,38 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  all: unset;
+  width: 100%;
+}
+
+li {
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+input {
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+p {
+  display: block;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
